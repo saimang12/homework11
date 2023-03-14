@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+
+
+
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"
+        integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="Wrap">
+
+        <header class="header">
+            <div class="inner">
+                <h1>
+                    <a href="">
+
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#!">회사소개</a>
+                            <ul class="s_menu">
+                                <li><a href="">인사말</a></li>
+                                <li><a href="">기업이념</a></li>
+                                <li><a href="">연혁</a></li>
+                                <li><a href="">조직안내</a></li>
+                                <li><a href="">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">분양현장</a>
+                            <ul class="s_menu">
+                                <li><a href="">분양캘린더</a></li>
+                                <li><a href="">분양단지</a></li>
+                                <li><a href="">공사진행현황</a></li>
+                                <li><a href="">상가분양</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">사업안내</a>
+                            <ul class="s_menu">
+                                <li><a href="">주택분양사업</a></li>
+                                <li><a href="">건축공사</a></li>
+                                <li><a href="">토목공사</a></li>
+                                <li><a href="">조경공사</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">인재채용</a>
+                            <ul class="s_menu">
+                                <li><a href="">인재상</a></li>
+                                <li><a href="">직무소개</a></li>
+                                <li><a href="">복리후생</a></li>
+                                <li><a href="">채용정보</a></li>
+                                <li><a href="">온라인 입사지원</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!">커뮤니티</a>
+                            <ul class="s_menu">
+                                <li><a href="">공지사항</a></li>
+                                <li><a href="">자주하는질문</a></li>
+                                <li><a href="">협력업체등록</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="h_icon">
+                    <i class="xi-bars"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="mainVisual">
+                <div class="swiper main_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm01">
+                            <div class="text_box">
+                                <figure>
+                                    <img src="./img/visual_txt01-01.png" alt="">
+                                </figure>
+                                <figure>
+                                    <img src="./img/visual_txt01-02.png" alt="">
+                                </figure>
+                                <p>
+                                    어두운 도시의 화려한 조명이 도시의 밤을 활기차게 합니다.
+                                    <br />
+                                    모아건설은 대한민국 건설을 밝히고 활력을 불어넣을 것입니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm02">
+                            <div class="text_box" data-aos="fade-left">
+                                <figure>
+                                    <img src="./img/visual_txt02_01.png" alt="">
+                                </figure>
+                                <figure>
+                                    <img src="./img/visual_txt02_02.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm03">
+                            <div class="text_box">
+                                <figure>
+                                    <img src="./img/visual_txt03_1.png" alt="">
+                                </figure>
+                                <figure>
+                                    <img src="./img/visual_txt03_02.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll_down">
+                        <i class="xi-angle-down"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="mainProduct">
+
+                <div class="inner" data-aos="fade-left" data-aos-once="true">
+                    <div class="tit">
+                        <h2>PRODUCT</h2>
+                        <b>진행중인 사업</b>
+                        <p>경험과 노하우를 고집하지 않고
+                            선진기술과 미래적인 혁신으로
+                            건설문화를 앞장서겠습니다.</p>
+                    </div>
+                    <div class="tab_wrap">
+                        <ul class="tab_select">
+                            <li class="on">
+                                <a href="#!">경기</a>
+                            </li>
+                            <li>
+                                <a href="#!">충남</a>
+                            </li>
+                            <li>
+                                <a href="#!">오산</a>
+                            </li>
+                        </ul>
+                        <ul class="tab">
+                            <li class="on">
+                                <div class="case">
+                                    <figure>
+                                        <img src="./img/main_product01.jpg" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <h3>평택 고덕국제신도시 A50블럭</h3>
+                                        <ul>
+                                            <li>
+                                                <b>분양일</b>
+                                                <p>2024년 05월</p>
+                                            </li>
+                                            <li>
+                                                <b>총 세대수</b>
+                                                <p>642세대(사전청약 578세대)</p>
+                                            </li>
+                                        </ul>
+                                        <span>
+                                            <a href="">
+                                                자세히 보기
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="case">
+                                    <figure>
+                                        <img src="./img/main_product02.jpg" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <h3>충남 내포신도시 모아미래도 메가시티 2차</h3>
+                                        <ul>
+                                            <li>
+                                                <b>분양일</b>
+                                                <p>2022년 02월</p>
+                                            </li>
+                                            <li>
+                                                <b>총 세대수</b>
+                                                <p>836세대</p>
+                                            </li>
+                                        </ul>
+                                        <span>
+                                            <a href="">
+                                                자세히 보기
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="case">
+                                    <figure>
+                                        <img src="./img/main_product03.jpg" alt="">
+                                    </figure>
+                                    <div class="text">
+                                        <h3>오산 세교2지구 모아미래도</h3>
+                                        <ul>
+                                            <li>
+                                                <b>분양일</b>
+                                                <p>2022년 10월</p>
+                                            </li>
+                                            <li>
+                                                <b>총 세대수</b>
+                                                <p>414세대</p>
+                                            </li>
+                                        </ul>
+                                        <span>
+                                            <a href="">
+                                                자세히 보기
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <section class="mainProject">
+                <div class="inner">
+                    <div class="tit">
+                        <h2>PROJECT</h2>
+                        <b>미래도 사업</b>
+                        <p>만족을 넘어 감동을 전하는 그순간까지
+                            모아건설은 쉬지 않습니다</p>
+                    </div>
+                    <div class="project">
+                        <div class="itm itm01" data-aos="flip-left" data-aos-once="true">
+                            <a href="">
+                                <div class="text">
+                                    <b>주택사업</b>
+                                    <p>HOUSING BUSINESS</p>
+                                </div>
+                                <figure>
+                                    <img src="./img/main_project01.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="itm itm02" data-aos="flip-left" data-aos-delay="100" data-aos-once="true">
+                            <a href="">
+                                <div class="text">
+                                    <b>건축사업</b>
+                                    <p>BUILDING PROJECT</p>
+                                </div>
+                                <figure>
+                                    <img src="./img/main_project02.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="itm itm03" data-aos="flip-left" data-aos-delay="200" data-aos-once="true">
+                            <a href="">
+                                <div class="text">
+                                    <b>토목사업</b>
+                                    <p>CIVIL ENGINEERING</p>
+                                </div>
+                                <figure>
+                                    <img src="./img/main_project03.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="itm itm04" data-aos="flip-left" data-aos-delay="300" data-aos-once="true">
+                            <a href="">
+                                <div class="text">
+                                    <b>조경사업</b>
+                                    <p>LANDSCAPING BUSINESS</p>
+                                </div>
+                                <figure>
+                                    <img src="./img/main_project04.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mainNews">
+                <div class="inner">
+                    <div class="tit">
+                        <h2>NEWS</h2>
+                        <b>주요소식</b>
+                        <p>최근 소식을 안내 드립니다.</p>
+                    </div>
+                    <div class="notice">
+                        <strong>
+                            공지사항
+                        </strong>
+                        <ul>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet
+                                    consectetur.Lorem ipsum dolor sit amet consectetur.</a>
+                                <p>Lorem, ipsum.</p>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet consectetur.</a>
+                                <p>Lorem, ipsum.</p>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet consectetur.</a>
+                                <p>Lorem, ipsum.</p>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet consectetur.</a>
+                                <p>Lorem, ipsum.</p>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet consectetur.</a>
+                                <p>Lorem, ipsum.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="inner">
+                <a href="">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <div class="desc">
+                    <p>
+                        주소 : 광주광역시 북구 북문대로 161, 3층 /
+                        TEL : 062) 520-0101 / FAX : 062) 520-0119
+                        <br />
+                        &copy; MOAMIRAEDO. All Rights Reserved.
+                    </p>
+                </div>
+                <ul>
+                    <li class="bold"><a href="">개인정보취급방침</a></li>
+                    <li><a href="">이메일무단수집거부</a></li>
+                    <li><a href="">그룹웨어</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="sideMenu">
+            <ul>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="./img/quick1.png" alt="">
+                        </figure>
+                        <span>분양캘린더</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="./img/quick2.png" alt="">
+                        </figure>
+                        <span>공사진행현황</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="./img/quick3.png" alt="">
+                        </figure>
+                        <span>입주안내문</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="./img/quick4.png" alt="">
+                        </figure>
+                        <span>협력업체등록</span>
+                    </a>
+                </li>
+            </ul>
+            <button></button>
+        </div>
+        <div class="toTop">
+            <a href="#!">
+                <i class="xi-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
